@@ -1,0 +1,77 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+*.log
+*.pot
+*.pid
+*.out
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyInstaller
+# Usually contains pyinstaller-<version>-log.txt and maybe other log files.
+*.manifest
+*.spec
+
+# Unit test / coverage results
+*.mo
+*.pot
+*.log
+*.coverage
+.cache
+.nox/
+
+# Environments
+*.env
+*.conda
+
+# Local settings
+local_settings.py
+
+# Pipenv files
+Pipfile.lock
