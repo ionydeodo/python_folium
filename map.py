@@ -26,7 +26,7 @@ def color_by_elevation(elevation):
 feature_group = folium.FeatureGroup(name="Volcanoes")
 feature_group_pop = folium.FeatureGroup(name="Population")
 
-map = folium.Map(location=[6.2447472222222, -75.574827777778], zoom_start=13)
+map = folium.Map(location=[6.666, -6.666], zoom_start=13)
 feature_group.add_child(
     folium.Marker(
         location=[6.280767, -75.549380],
